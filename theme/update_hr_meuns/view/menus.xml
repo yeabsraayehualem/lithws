@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+           <menuitem id="hr.menu_hr_root"
+                    name="HR"
+                    sequence="185"/>
+        <menuitem id="chart_sample.menu_chart_js_sample_hr"
+                    parent="hr.menu_hr_root"
+                    name="Dashboard"
+                    sequence="-100"/>
+        <menuitem id="chart_sample.menu_chart_js_sample_hr_gen"
+                    name="Dashboard"
+                    web_icon="lithws_icons,static/src/img/icons/dashboard.png"
+                    sequence="-99"/>
+    </data>
+</odoo>
+
