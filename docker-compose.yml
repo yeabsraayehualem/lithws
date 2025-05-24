@@ -28,6 +28,11 @@ services:
       - ./addons:/mnt/extra-addons
       - ./theme:/mnt/extra-themes
       - ./etc:/etc/odoo
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
     restart: always
 
   nginx:
