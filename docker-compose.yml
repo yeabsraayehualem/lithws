@@ -22,7 +22,7 @@ services:
     environment:
       - HOST=postgres
       - USER=odoo
-      - PASSWORD=odoo15@2021
+      - PASSWORD=odoo17
     volumes:
       - odoo_data:/var/lib/odoo
       - ./addons:/mnt/extra-addons
